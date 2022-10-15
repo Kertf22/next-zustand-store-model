@@ -1,0 +1,31 @@
+
+
+.list-cats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.list-cats-item{
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.selected-cat{ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    border-radius: 18px;
+}
+
+.selected-cat img {
+    width: 100%;
+    border-radius: 18px;
+}
